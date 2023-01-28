@@ -7,6 +7,4 @@ int main(){
         }
         cout<<endl;
     }
-
-
 }
