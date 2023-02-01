@@ -12,6 +12,8 @@ int fact(int n){
     cout<<n<<endl; // printing the vaule of n
     if(n == 0) return 1; // so that if will not go to -ve values
 
+    ///*if (n<0) return -1; // In case of negative cin value we can take this condtion */ //factrorial of -ve number is not defind
+
     int smallAns = fact(n-1);
     return n*smallAns;
 }
