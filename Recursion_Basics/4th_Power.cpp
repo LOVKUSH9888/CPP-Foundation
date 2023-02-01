@@ -8,14 +8,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int power(int x, int n){
+int power(int x, int n){   //Only we will change the n = value in case 
     //Base Case
     if(n==0) return 1;
 
     //Recursive Case
     int smallOutput = power(x, n-1);
 
-    //#rd step calculation
+    //3rd step calculation
     return x*smallOutput;
 }
 
