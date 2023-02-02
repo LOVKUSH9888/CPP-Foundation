@@ -13,7 +13,7 @@
 #include<iostream>
 using namespace std;
 
-int count(int n){
+int count(int n){  //n = 4025
     //Base CAse
 
     if (n == 0){
@@ -21,7 +21,7 @@ int count(int n){
     }
 
     //Recursive case
-    int smallAns = count(n/10);
+    int smallAns = count(n/10);   // 4025/10 = 402
 
     //Calculation 
     return smallAns + 1;
