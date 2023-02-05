@@ -1,4 +1,4 @@
-//Given no. = 10320 = 0+0 = 2 zeros
+//Given no. = 10320 = 0+0 = 2 zeros   // constrained n >= 1
 //If n = 123 = then 0 count = 0
 
 #include<bits/stdc++.h>
