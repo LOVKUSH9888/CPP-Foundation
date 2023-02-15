@@ -7,3 +7,14 @@
 
 ///AT the point of collision we used two techniques -1. Chaining(Open Hashing) && 2. Open Addressing(Closed Hashing)
 ///In chaining = We make Linked List and add the data on same index by making chaining
+
+
+////Hash MAp = a[key] = Value  ====== We can also use Insert Function ===== a["abc"] = 1 ========= a.insert("abc", 1)
+//In case of array = The Value will be always = Int. = We called it Index
+//& string can be anytbing = either int , double Or Char.
+
+
+
+/////#implementaion of hashmap: Insert-delete-search
+//1. Linked-List
+//2. Balanced BST = This will better than Linked LIst
