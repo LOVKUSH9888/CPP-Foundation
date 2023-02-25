@@ -45,5 +45,45 @@ int main() {
 }
 
 
+//Pass by Value
+
+#include <iostream>
+using namespace std;
+
+// Function that accepts two integer values and returns their sum
+int add(int x, int y) {
+   x = x + 1; // Changes made to x inside the function do not affect the original value of x
+   return x + y;
+}
+
+int main() {
+   int a = 5;
+   int b = 7;
+   int result = add(a, b); // Passes the values of a and b to the add() function
+   cout << "Result: " << result << endl;
+   cout << "a: " << a << endl; // The value of a is unchanged
+   return 0;
+}
+
+
+//Pass by ref.
+
+#include <iostream>
+using namespace std;
+
+// Function that accepts two integer references and returns their sum
+int add(int& x, int& y) {   ///& we use 
+   x = x + 1; // Changes made to x inside the function affect the original value of x
+   return x + y;
+}
+
+int main() {
+   int a = 5;
+   int b = 7;
+   int result = add(a, b); // Passes the memory addresses of a and b to the add() function
+   cout << "Result: " << result << endl;
+   cout << "a: " << a << endl; // The value of a is changed
+   return 0;
+}
 
 
