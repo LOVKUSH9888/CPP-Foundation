@@ -1,0 +1,49 @@
+// C++ Program to demonstrate working of a function
+#include <iostream>
+using namespace std;
+
+// Following function that takes two parameters 'x' and 'y'
+// as input and returns max of two input numbers
+int max(int x, int y){
+    if(x>y){
+        return x;
+
+    }else{
+        return y;
+    }
+}
+
+// main function that doesn't receive any parameter and
+// returns integer
+int main()
+{
+	int a = 50, b = 20;
+
+	// Calling above function to find max of 'a' and 'b'
+	int m = max(a, b);
+
+	cout << "m is " << m;
+	return 0;
+}
+
+
+//2nd 
+
+#include <iostream>
+using namespace std;
+
+// Inline function declaration
+inline int add(int x, int y) {
+   return x + y;
+}
+
+int main() {
+   // Function call
+   int result = add(5, 7);
+   cout << "Result: " << result << endl;
+   return 0;
+}
+
+
+
+
