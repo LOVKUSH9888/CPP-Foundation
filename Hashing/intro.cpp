@@ -1,5 +1,5 @@
 //It is similar to array  {it has indexes but Diff is we dont need to scan entire data for finding the data}
-//It is used to store & retrieve data in O(1) time
+//It is used to store & retrieve data in O(1) time == iNSERTION, DELETITION & SEARCHING
 //It is alo called mapping technique
 //# imp = Search Key +  Hash Table + Hash Function
 // Hash Table = Data Structure 
