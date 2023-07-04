@@ -11,7 +11,7 @@ int main()
     for(int i = 1; i<=5; i++){
         for(int j = 1; j <=i; j++){
             cout<<"*";
-            Sleep(1000);
+            //Sleep(1000);
         }
         cout<<endl;
     }
@@ -69,13 +69,16 @@ int main()
 
 
 
-#include<iostream>
+#include <iostream>
+#include <windows.h>
 using namespace std;
-int main (){
-    for(int i = 0; i <=5; i++){
-        cout<<i<<"\n";
-    }
-    for(int i = 0; i <=5; i++){
-        cout<<i;
+  
+// Driver Code
+int main()
+{
+    for (int i = 0; i < 5; i++)
+    {
+		cout << i ;
+        Sleep(100);
     }
 }
