@@ -61,7 +61,7 @@ int main()
         cout << S[i];
   
         // Waits for 200 milliseconds
-        Sleep(200);
+        //Sleep(200);
     }
   
     return 0;
@@ -79,6 +79,6 @@ int main()
     for (int i = 0; i < 5; i++)
     {
 		cout << i ;
-        Sleep(100);
+        //Sleep(100);
     }
 }
