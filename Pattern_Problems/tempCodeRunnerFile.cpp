@@ -1,14 +1,14 @@
 #include<iostream>
 using namespace std;
-int main(){
-    int n;
-    cout<<"Enter the Number of Rows";
-    cin>>n;
-    for(int i=0; i<=n; i++){   //Rows
-        for(int j <= 0; j<=n; j++){   //Columns
-            cout<<"* ";    //* always is in this inside loop
+int main (){
+    for(int i=0; i<n; i++){
+        for(int k = n-1; k>0; k--){
+            cout<<" ";
         }
-        cout<<endl;    // For next line moving 
+        for(int j = 1; j<=((int i*2)-1); j++){
+            cout<<"*";
+        }
+        cout<<endl;
     }
     return 0;
 }
